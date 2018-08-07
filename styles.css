@@ -1,0 +1,165 @@
+body{
+	background-color: #f8f8f9;
+    font-family: Helvetica, Arial, sans-serif; 
+
+}
+#head-div{
+	position: relative;
+	width: 100%;
+	height: 4rem;
+	padding: 0px;
+	background: url("images/head.png") center center repeat;
+}
+
+#log-div{
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	margin-left: calc(50% - 3rem);
+	margin-top: calc(0rem - 30px);
+	background-color: black;
+}
+
+._lc{
+ fill: #ffffff;
+ width: 56px;
+}
+
+._lp{
+	position: absolute;
+	margin-top: 2.5rem;
+	margin-left: calc(3rem - 28px);
+}
+
+._tw{
+	position: absolute;
+	margin-top: calc(6rem);
+	margin-left: calc(50% - 7rem);
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500; 
+    font-family: Helvetica, Arial, sans-serif; 
+}
+._tws{
+	position: absolute;
+	margin-top: calc(8rem);
+	margin-left: calc(50% - 9rem);
+	text-align: center;
+	font-size: 22px;
+	font-weight: 350;
+	line-height: 250%;
+	font-family: Helvetica, Arial, sans-serif; 
+}
+
+._lb{
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-bottom: 4px;
+	display: block;
+}
+
+._tbx{
+
+	border-color: #e5e5e4;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0px;
+	padding: 8px 18px;
+	background: #ffffff;
+	height: 52px;
+	box-sizing: border-box;
+	font-size: 16px;
+	transition: all 400ms ease;
+}
+
+#_fn{
+	position: absolute;
+}
+
+#_ln{
+	position: absolute;
+	margin-left: 15rem;
+}
+
+._fnln{
+position: absolute;
+margin-top: 12rem;
+margin-left: calc(50% - 15rem);
+
+}
+
+#code{
+	border-color: #e5e5e4;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0px;
+	padding: 8px 18px;
+	background: #ffffff;
+	height: 52px;
+	box-sizing: border-box;
+	font-size: 16px;
+	width: 5rem;
+	/*padding: 0px;*/
+}
+
+._phn{
+position: absolute;
+margin-top: 19rem;
+margin-left: calc(50% - 15rem);
+
+}
+._eml{
+position: absolute;
+margin-top: 25rem;
+margin-left: calc(50% - 15rem);
+
+}
+
+._psw{
+position: absolute;
+margin-top: 32rem;
+margin-left: calc(50% - 15rem);
+}
+
+._xs{
+	width: 30rem;
+}
+
+._xsphn{
+	width: calc(25rem - 3px);
+}
+
+
+._snp{
+position: absolute;
+margin-top: 39rem;
+margin-left: calc(50% - 15rem);
+background-color: #11939a;
+height: 3rem;
+color: #ffffff;;
+cursor: pointer;
+
+}
+
+._snp button{
+cursor: pointer;
+background-color: #11939a;
+height: 100%;
+width: 100%;
+border-color: #11939a;
+color:#ffffff;
+font-size: 24px;
+font-weight: 600;
+
+
+
+}
+
+._last{
+	position: absolute;
+margin-top: 43rem;
+margin-left: calc(50% - 15rem);
+}
+
+
