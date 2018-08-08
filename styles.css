@@ -23,12 +23,15 @@ body{
 ._lc{
  fill: #ffffff;
  width: 56px;
+ font-weight: 400;
+ font-size: 30px;
 }
 
 ._lp{
 	position: absolute;
-	margin-top: 2.5rem;
-	margin-left: calc(3rem - 28px);
+	margin-top: 0rem;
+	margin-left: calc(3rem - 35px);
+	 color: white;
 }
 
 ._tw{
@@ -156,10 +159,26 @@ font-weight: 600;
 
 }
 
+._tmp {
+position: absolute;
+margin-top: calc(41rem + 20px);
+margin-left: calc(50% - 15rem);
+background-color: inherit;
+height: 3rem;
+color: #000000;;
+
+
+
+
+}
+
 ._last{
 	position: absolute;
-margin-top: 43rem;
+margin-top: 47rem;
 margin-left: calc(50% - 15rem);
 }
 
-
+a{
+	color: blue;
+	text-decoration: none;
+}
