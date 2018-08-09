@@ -27,4 +27,6 @@ class MyTests(unittest.TestCase):
     def test_rite_email(self):
         comp = self.obj.keep("Mulondo", "Ali", "0772693031", \
             "..myalimul@gmail.com", "12345678")
-        self.assertEqual(comp, True)    
+        self.assertEqual(comp, True)
+
+
