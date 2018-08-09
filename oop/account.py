@@ -38,16 +38,19 @@ class Details(Store, Validator):
     def keep(self, last_name, first_name, phone, email, password):
         if last_name !='' and first_name != '' and phone != '' \
           and email !='' and password != '':
-            content = {"lastname": last_name, "firstname": first_name, "phone": phone, \
-                  "email": email, "password": password, }
+            content = {"lastname": last_name, "firstname": first_name, \
+             "phone": phone,  "email": email, "password": password, }
 
             if self.validate(content):      
                 self.storing(content)
+                return True
             else:
                 print("Check your email")
+                return False
             
         else:
             print("Fill All the fields")
+            return False
 
 
 obj = Details()
